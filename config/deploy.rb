@@ -36,11 +36,9 @@ task :setup => :environment do
   queue! %[chmod g+rx,u+rwx "#{deploy_to}/shared/config"]
 
   queue! %[touch "#{deploy_to}/shared/config/mongoid.yml"]
-  queue! %[touch "#{deploy_to}/shared/config/application.yml"]
   queue! %[touch "#{deploy_to}/shared/config/secrets.yml"]
 
   queue  %[echo "-----> Be sure to edit 'shared/config/mongoid.yml'."]
-  queue  %[echo "-----> Be sure to edit 'shared/config/application.yml'."]
   queue  %[echo "-----> Be sure to edit 'shared/config/secrets.yml'."]
 end
 
