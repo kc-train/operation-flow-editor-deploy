@@ -55,3 +55,4 @@ gem 'haml'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'react-rails', '~> 1.2.0'
 gem 'sprockets-coffee-react', '~> 3.0.1'
+gem "non-stupid-digest-assets"
