@@ -52,7 +52,7 @@ gem 'play_auth', :github => 'mindpin/play_auth',
 
 gem 'mongoid', '~> 4.0.2'
 gem 'haml'
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap-sass', '3.3.5.1'
 gem 'react-rails', '~> 1.2.0'
-gem 'sprockets-coffee-react', '~> 3.0.1'
-gem "non-stupid-digest-assets"
+gem 'sprockets-coffee-react', '3.0.1'
+gem "non-stupid-digest-assets", '1.0.5'
