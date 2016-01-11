@@ -30,6 +30,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'sprockets', '3.4.0'
+gem 'sprockets-rails', '2.3.3'
+gem 'spring', '1.4.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -53,6 +57,6 @@ gem 'play_auth', :github => 'mindpin/play_auth',
 gem 'mongoid', '~> 4.0.2'
 gem 'haml'
 gem 'bootstrap-sass', '3.3.5.1'
-gem 'react-rails', '~> 1.2.0'
+gem 'react-rails', '1.2.0'
 gem 'sprockets-coffee-react', '3.0.1'
 gem "non-stupid-digest-assets", '1.0.5'
