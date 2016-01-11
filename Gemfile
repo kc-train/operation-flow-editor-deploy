@@ -32,7 +32,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'sprockets', '3.4.0'
 gem 'sprockets-rails', '2.3.3'
-gem 'spring', '1.4.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
